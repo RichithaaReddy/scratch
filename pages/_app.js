@@ -1,6 +1,6 @@
 import Footer from '../components/Footer'
+import Link from 'next/link'
 import NavBar from '../components/NavBar'
-import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return <>

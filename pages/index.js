@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import NavBar from '../components/NavBar'
 import home from './home'
+import Link from 'next/link'
 
   
 

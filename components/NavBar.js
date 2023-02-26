@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import Link from "next/Link";
+import Link from "next/link";
 import { useState } from "react";
 import { AiOutlineShoppingCart } from "react-icons/Ai";
 import { RiCloseFill } from "react-icons/Ri";
