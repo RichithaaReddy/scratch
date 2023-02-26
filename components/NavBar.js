@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import { useState } from "react";
-import { AiOutlineShoppingCart } from "react-icons/Ai";
-import { RiCloseFill } from "react-icons/Ri";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { RiCloseFill } from "react-icons/ri";
 
 function NavBar() {
   const [isCartOpen, setIsCartOpen] = useState(false);
