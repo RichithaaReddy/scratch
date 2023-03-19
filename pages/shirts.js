@@ -1,12 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 
-function shirts() {
+function Shirts() {
 
   return (
     <>
-    <div className='grid md:grid-cols-4 sm:grid-cols-1 gap-8 m-5'>
+    <NavBar/>
+    <div className='grid md:grid-cols-4 sm:grid-cols-1 gap-8 m-5 '>
         <div className='block mx-auto my-auto p-3 shadow-lg'>
             <img className='block  h-[80mm] w-[80mm] object-scale-down' src='https://imagescdn.aeo.in/img/app/product/7/726772-9198922.jpg?auto=format'/>
             <div className='text-center md:text-left md:pl-9 pt-4'>
@@ -98,8 +101,9 @@ function shirts() {
             </div>
         </div>
     </div>
+    <Footer/>
     </>
   )
 }
 
-export default shirts;
+export default Shirts;
